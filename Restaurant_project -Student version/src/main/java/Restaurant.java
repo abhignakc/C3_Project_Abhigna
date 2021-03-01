@@ -72,7 +72,7 @@ public class Restaurant {
         return name;
     }
 
-   /* //Part 3
+    //Part 3
     public int calculateOrderCost(List<String> itemNames) {
         int totalCost =0;
         for (int i=0;i<itemNames.size();i++){
@@ -80,6 +80,6 @@ public class Restaurant {
             totalCost = totalCost + item.getPrice();
         }
         return totalCost;
-    }*/
+    }
 
 }

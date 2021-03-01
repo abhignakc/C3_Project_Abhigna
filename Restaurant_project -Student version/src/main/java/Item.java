@@ -20,8 +20,8 @@ public class Item {
                 ;
     }
 
-/*    //Part 3
+    //Part 3
     public int getPrice() {
         return price;
-    }*/
+    }
 }
