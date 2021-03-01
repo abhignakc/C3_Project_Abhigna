@@ -6,7 +6,6 @@ public class RestaurantService {
     private static List<Restaurant> restaurants = new ArrayList<>();
 
     public Restaurant findRestaurantByName(String restaurantName) throws restaurantNotFoundException {
-/*
 
        int j =0;
        boolean flag = false;
@@ -22,8 +21,7 @@ public class RestaurantService {
         } else {
             throw new restaurantNotFoundException(restaurantName);
         }
-*/
-        return null;
+
 
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
     }

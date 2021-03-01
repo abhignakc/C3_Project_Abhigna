@@ -18,13 +18,13 @@ public class Restaurant {
 
     public boolean isRestaurantOpen() {
 
-      /*  boolean isOpen = false;
+        boolean isOpen = false;
 
         if (getCurrentTime().equals(openingTime) || getCurrentTime().isAfter(openingTime) && getCurrentTime().isBefore(closingTime)) {
             isOpen = true;
         }
-        return isOpen;*/
-        return true;
+        return isOpen;
+
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
     }
 
@@ -33,8 +33,7 @@ public class Restaurant {
     }
 
     public List<Item> getMenu() {
-        /* return menu;*/
-        return null;
+        return menu;
         //DELETE ABOVE RETURN STATEMENT AND WRITE CODE HERE
     }
 
