@@ -2,6 +2,8 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.time.LocalTime;
+import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
@@ -79,7 +81,7 @@ class RestaurantTest {
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-  /* //Part 3
+    //Part 3
    @Test
    public void order_items_from_menu_and_calculate_order_cost(){
        //WRITE UNIT TEST CASE HERE
@@ -87,5 +89,5 @@ class RestaurantTest {
        List<String> itemNames = Arrays.asList("Sweet corn soup","Vegetable lasagne");
        assertEquals(388,restaurant.calculateOrderCost(itemNames));
 
-   }*/
+   }
 }
